@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage('SCM Checkout') {
             steps {
-              git 'https://github.com/Elavarasi10/CICD_Docker.git'
+              git 'git branch: 'main', url: 'https://github.com/Elavarasi10/CICD_Docker.git'
             }
         }
     }
