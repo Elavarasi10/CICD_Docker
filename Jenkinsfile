@@ -1,8 +1,10 @@
 pipeline{
     agent any
     stages {
-        stage('Clone Repo') {
+        stage('SCM Checkout') {
             steps {
-              git 'https://github.com/Elavarasi10/Projectwork.git'
+              git 'https://github.com/Elavarasi10/CICD_Docker.git'
             }
         }
+    }
+}
